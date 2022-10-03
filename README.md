@@ -1,1 +1,1 @@
-VoViT
+Project page for Soccer Action Spotting paper

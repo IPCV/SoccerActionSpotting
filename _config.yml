@@ -6,20 +6,20 @@
 # --- Required options --- #
 
 # Name of website
-title: VoViT
+title: Soccer Action Spotting
 
 # Your name to show in the footer
 author: IPCV
 
 # --- List of links in the navigation bar --- #
 
-navbar-links:
-  Demos: "demos"
-  #Architecture: "architecture"
-  About us:
-    - Juan F. Montesinos: "https://juanmontesinos.com"
-    - Venkatesh S. Kadandale: "https://vskadandale.github.io"
-    - Gloria Haro: "https://www.upf.edu/web/gloria-haro"
+# navbar-links:
+#   Demos: "demos"
+#   #Architecture: "architecture"
+#   About us:
+#     - Juan F. Montesinos: "https://juanmontesinos.com"
+#     - Venkatesh S. Kadandale: "https://vskadandale.github.io"
+#     - Gloria Haro: "https://www.upf.edu/web/gloria-haro"
 
 # --- Logo --- #
 
