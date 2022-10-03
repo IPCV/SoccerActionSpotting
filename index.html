@@ -26,7 +26,7 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <h5>
                             <a href="http://gorayni.github.io/"
-                               style="text-decoration: none; color: #000000;">
+                               style="text-decoration: none;">
                                 Alejandro Cartas
                             </a>
                         </h5>
@@ -38,7 +38,7 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
                         <h5>
                             &nbsp;
                             <a href="https://www.upf.edu/web/gloria-haro"
-                               style="text-decoration: none; color: #000000;">
+                               style="text-decoration: none;">
                                 Gloria Haro
                             </a>
                         </h5>
@@ -49,7 +49,7 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <h5>
                             <a href="https://www.upf.edu/web/coloma-ballester"
-                               style="text-decoration: none; color: #000000;">
+                               style="text-decoration: none;">
                                 Coloma Ballester
                             </a>
                         </h5>
@@ -62,7 +62,7 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
           <span class="align-middle">
             <p class="mylead2">
                 <a href="https://www.upf.edu/web/etic"
-                   style="color:black">Universitat Pompeu Fabra, Barcelona, Spain</a><br>
+                   style="color:black">Universitat Pompeu Fabra,<br>Barcelona, Spain</a><br>
 
               
           </span>
@@ -78,33 +78,18 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
             <h5 style="padding-bottom: 5%; padding-top: 5%">Paper</h5>
         </div>
         <div class="col-sm-3 text-center">
-            <a href="https://github.com/JuanFMontesinos/VoViT"
+            <a href="https://github.com/IPCV/soccer_action_spotting"
                style="color: #242124">
                 <i class="fab fa-github fa-8x"></i></a>
-            <h5 style="padding-bottom: 5%; padding-top: 5%">Code + Weights</h5>
-        </div>
-        <div class="col-sm-3 text-center">
-            <a style="color: #242124;"
-               href="./demos/">
-                <i class="fas fa-film fa-8x" style="transform: scale(1,1.275); padding-top: 2.5px"></i>
-            </a>
-            <h5 style="padding-bottom: 5%; padding-top: 5px">Demos</h5>
+            <h5 style="padding-bottom: 5%; padding-top: 5%">Code + Data</h5>
         </div>
     </div>
-    <h6 class="mx-auto text-center" style="color: saddlebrown">Accepted in ECCV 2022</h6>
+    <h6 class="mx-auto text-center" style="color: saddlebrown">Accepted in ACM MMSports'22</h6>
     </br>
     <!-- Image Showcases -->
     <h2 style="text-align: center">Abstract</h2>
     <p class="lead mb-0" align="justify">
-        This paper presents an audio-visual approach for voice separation which outperforms state-of-the-
-        art methods at a low latency in two scenarios: speech and singing voice. The model is based on
-        a two-stage network. Motion cues are obtained with a lightweight graph convolutional network
-        that processes face landmarks. Then, both audio and motion features are fed to an audio-visual
-        transformer which produces a fairly good estimation of the isolated target source. In a second stage,
-        the predominant voice is enhanced with an audio-only network. We present different ablation studies
-        and comparison to state-of-the-art methods. Finally, we explore the transferability of models trained
-        for speech separation in the task of singing voice separation. The demos, code, and weights are
-        publicly available at <a href="https://ipcv.github.io/VoViT/">https://ipcv.github.io/VoViT/</a>
+        Action spotting in soccer videos is the task of identifying the specific time when a certain key action of the game occurs. Lately, it has received a large amount of attention and powerful methods have been introduced. Action spotting involves understanding the dynamics of the game, the complexity of events, and the variation of video sequences. Most approaches have focused on the latter, given that their models exploit the global visual features of the sequences. In this work, we focus on the former by (a) identifying and representing the players, referees, and goalkeepers as nodes in a graph, and by (b) modeling their temporal interactions as sequences of graphs. For the player identification, or player classification task, we obtain an accuracy of 97.72% in our annotated benchmark. For the action spotting task, our method obtains an overall performance of 57.83% average-mAP by combining it with other audiovisual modalities. This performance surpasses similar graph-based methods and has competitive results with heavy computing methods. Code and data are available at <a href="https://github.com/IPCV/soccer_action_spotting">https://github.com/IPCV/soccer_action_spotting</a>.
     </p>
     </br>
 
@@ -112,17 +97,18 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
     <div class="mx-auto">
         <br>
         <h5>Citation</h5>
-        <pre class="hightlight" style="background-color:rgba(0,0,0, 0.1)"><p class="mb-0" align="justify">@inproceedings{montesinos2022vovit,
-  title={VoVIT: Low Latency Graph-Based Audio-Visual Voice Sseparation Transformer},
-  author={Montesinos, Juan F. and Kadandale, Venkatesh S. and Haro, Gloria},
-  booktitle={Arxiv preprint arXiv:2203.04099},
-  year={2022}
+        <pre class="hightlight" style="background-color:rgba(0,0,0, 0.1)"><p class="mb-0" align="justify">@inproceedings{cartas2022GraphActionSpotting,
+  author       = {Alejandro Cartas, Coloma Ballester, and Gloria Haro},
+  title        = {A Graph-Based Method for Soccer Action Spotting Using Unsupervised Player Classification},
+  howpublished = {ACM Workshop on Multimedia Content Analysis in Sports (MMSports '22)},
+  month        = Octuber,
+  year         = {2022},
 }</p></pre>
     </div>
 
     <div class="mx-auto">
         <br>
-        <h5>Video presentation at ECCV 2022</h5>
+        <h5>Video presentation at ACM MMSports 2022</h5>
     </div>
        <iframe width="100%" height="400" src="https://www.youtube.com/embed/EtgSx2pjtyU" title="VoViT: Low Latency Graph-based Audio-Visual Voice Separation Transformer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -131,16 +117,7 @@ share-description: Official website of A Graph-Based Method for Soccer Action Sp
         <br>
         <h5>Acknowledgements</h5>
         <p class="lead mb-0" align="justify">
-            The authors acknowledge support by MICINN/FEDER UE project, ref. PGC2018-098625-B-I00;
-            PID2021-127643NB-I00 project; H2020-MSCA-RISE-2017 project, ref. 777826 NoMADS; 
-            ReAViPeRo network, ref. RED2018-102511-T;
-            and Spanish Ministry of Economy and Competitiveness under the María de Maeztu Units of Excellence
-            Program (MDM-2015-0502) and the Social European Funds. J. F. M. acknowledges support by
-            FPI scholarship PRE2018-083920. V. S. K. has received financial support through “la Caixa”
-            Foundation (ID 100010434), fellowship code: LCF/BQ/DI18/11660064. V.S.K has also received
-            funding from the European Union’s Horizon 2020 research and innovation programme under the
-            Marie SkłodowskaCurie grant agreement No. 713673. We gratefully acknowledge NVIDIA Corporation
-            for the donation of GPUs used for the experiments.
+            The authors acknowledge support by MICINN/FEDER UE project, ref. PID2021-127643NB-I00, H2020-MSCA-RISE-2017 project, ref. 777826 NoMADS, and ReAViPeRo network, ref. RED2018-102511-T.
     </div>
 
 </div>
